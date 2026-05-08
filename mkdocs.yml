@@ -1,4 +1,13 @@
-site_name: Palgogo
+site_name: Palgogo github.io
 site_url: https://palgogo.github.io/
 theme:
   name: material
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+nav:
+  - Home: index.md
+  - About: about.md
+  - Projects: projects.md
+  - Contact: contact.md
