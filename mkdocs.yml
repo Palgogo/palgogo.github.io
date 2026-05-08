@@ -1,0 +1,4 @@
+site_name: Palgogo
+site_url: https://palgogo.github.io/
+theme:
+  name: material
