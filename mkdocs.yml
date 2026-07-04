@@ -8,6 +8,9 @@ markdown_extensions:
   - pymdownx.superfences
 nav:
   - Home: index.md
+  - Notes:
+      - Overview: notes/index.md
+      - What a Platform Team Actually Buys You: notes/what-a-platform-team-buys-you.md
   - About: about.md
   - Projects: projects.md
   - Contact: contact.md
