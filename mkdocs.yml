@@ -1,5 +1,5 @@
 site_name: Palgogo github.io
-site_url: https://palgogo.github.io/
+site_url: https://blog.palgogo.com/
 theme:
   name: material
 markdown_extensions:

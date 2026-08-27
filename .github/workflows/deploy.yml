@@ -31,6 +31,9 @@ jobs:
       - name: Build docs
         run: mkdocs build --strict
 
+      - name: Add custom-domain configuration
+        run: cp CNAME site/CNAME
+
       - name: Setup Pages
         uses: actions/configure-pages@v6
 

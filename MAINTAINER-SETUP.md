@@ -35,3 +35,7 @@ Useful commands:
 
 - Current theme: Material for MkDocs
 - Current deploy model: GitHub Actions + Pages artifact deployment
+- Canonical public URL: `https://blog.palgogo.com/`; `https://palgogo.com/` redirects there.
+- Custom domain: the repository-root `CNAME` must contain exactly `blog.palgogo.com`. The deployment workflow copies it into the Pages artifact after MkDocs builds.
+- In GitHub Settings → Pages, keep the custom domain set to `blog.palgogo.com` and enable **Enforce HTTPS** only after GitHub has issued its certificate.
+- In Cloudflare DNS, the `blog` CNAME target is `palgogo.github.io` and must remain **DNS only** while GitHub Pages validates and renews its certificate. Verify after changes with `curl -Iv https://blog.palgogo.com/`.
